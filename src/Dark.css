@@ -1,0 +1,1471 @@
+:root {
+    --clr-page1: rgb(255, 248, 249);
+    --clr-innehåll: rgb(255, 248, 249);
+    --clr-button1-bg: black;
+    --clr-button1-pr: white;
+    --clr-button2-bg: black;
+    --clr-button2-pr: white;
+    --clr-page2: white ;
+    --clr-innehåll2: white;
+    --clr-lorem: rgba(147, 151, 173, 1);
+    --clr-pxalla: rgba(86, 89, 115, 1);
+    --clr-page3: white;
+    --clr-page4: white;
+    --clr-knapp4-bg: rgb(111, 76, 248);
+    --clr-knapp4-pr: white;
+    --clr-knapp42-bg: rgb(111, 76, 248);
+    --clr-knapp42-pr: white;
+    --clr-page5: rgba(243, 246, 255, 1);
+    --clr-recention: white;
+    --clr-rtext: rgba(86, 89, 115, 1);
+    --clr-f5af: rgba(147, 151, 173, 1);
+    --clr-text6u: rgba(86, 89, 115, 1);
+    --clr-vibebtn: rgba(99, 102, 241, 1);
+    --clr-whatsappbtn-pr: rgba(34, 197, 94, 1);
+    --clr-whatsappbtn-bg: white;
+    --clr-sectionsh3: rgba(11, 15, 25, 1);
+    --clr-sectionsbtn-bgcl: #4CAF50;
+    --clr-sectionsbtn-bg: rgba(243, 246, 255, 1);
+    --clr-section3btn: rgba(99, 102, 241, 1);
+    --clr-section3p: rgba(86, 89, 115, 1);
+    --clr-ruta2: rgba(243, 246, 255, 1);
+    --clr-email: rgba(255, 255, 255, 1);
+    --clr-emailtext: rgba(180, 183, 201, 1);
+    --clr-emailbtn-bg: rgba(99, 102, 241, 1);
+    --clr-emailbtn-pr: rgba(255, 255, 255, 1);
+    --clr-ruta3: rgba(147, 151, 173, 1);
+    --clr-btnround: #F3F6FF;
+    --clr-btnroundopen-bg: #6366F1;
+    --clr-btnroundopen-pr: #ffffff;;
+    --clr-slider: #bfbfbf;
+    --clr-page6: white;
+    --clr-btnround-bg: white;
+    --cl-h1: black;
+    --cl-title: black;
+    --cl-subtitle: rgb(0, 0, 0);
+    --clr-navbarbtn-bg: rgba(99, 102, 241, 1);
+    --clr-slidebtn-bg: rgb(85, 85, 104);
+
+    
+    --form-br: .4rem;
+}
+
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color-scheme: light;
+}
+
+.dark {
+    color-scheme: dark;
+    --clr-page1: rgb(36, 31, 59);
+    --clr-innehåll: rgb(36, 31, 59);
+    --clr-button1-bg: rgb(192, 178, 178);
+    --clr-button1-pr: rgb(79, 75, 75);
+    --clr-button2-bg: rgb(192, 178, 178);
+    --clr-button2-pr: rgb(79, 75, 75);
+    --cl-h1: white;
+    --cl-title: white;
+    --cl-subtitle: rgb(95, 90, 90);
+    --clr-slider: rgba(99, 102, 241, 1);
+    --clr-slidebtn-bg: rgba(99, 102, 241, 1);
+
+  /* ------------------------------------------------- */
+    --clr-page2: rgb(19, 19, 37);
+    --clr-innehåll2: rgb(19, 19, 37);
+    --clr-lorem: rgb(95, 98, 112);
+    --clr-pxalla: rgb(255, 255, 255);
+    /* ------------------------------------------------- */
+    --clr-page3: hsla(240, 22%, 14%, 0.931);
+  /* ------------------------------------------------- */
+    --clr-page4: rgb(19, 19, 37);
+    --clr-knapp4-bg: rgb(111, 76, 248);
+    --clr-knapp4-pr: white;
+    --clr-knapp42-bg: rgb(111, 76, 248);
+    --clr-knapp42-pr: white;
+      /* ------------------------------------------------- */
+    --clr-page5: hsla(240, 22%, 14%, 0.931);
+    --clr-recention: white;
+    --clr-rtext: white;
+    --clr-f5af: white;
+      /* ------------------------------------------------- */
+    --clr-page6: rgb(19, 19, 37);
+    --clr-text6u: rgb(240, 241, 245);
+    --clr-vibebtn: rgba(99, 102, 241, 1);
+    --clr-whatsappbtn-pr: rgba(34, 197, 94, 1);
+    --clr-whatsappbtn-bg: rgb(19, 19, 37);
+    --clr-sectionsh3: rgba(11, 15, 25, 1);
+    --clr-sectionsbtn-bgcl: #4CAF50;
+    --clr-sectionsbtn-bg: rgba(243, 246, 255, 1);
+    --clr-section3btn: rgba(99, 102, 241, 1);
+    --clr-section3p: rgba(86, 89, 115, 1);
+    --clr-ruta2: rgba(28, 28, 44, 0.931);
+    --clr-email: rgba(28, 28, 44, 0.931);
+    --clr-emailtext: rgb(62, 64, 77);
+    --clr-emailbtn-bg: rgba(99, 102, 241, 1);
+    --clr-emailbtn-pr: rgba(255, 255, 255, 1);
+    --clr-ruta3: rgba(28, 28, 44, 0.931);
+    --clr-btnround: hsla(240, 22%, 14%, 0.931);
+    --clr-btnroundopen-bg: rgba(99, 102, 241, 1);
+    --clr-btnroundopen-pr: #ffffff;
+    --clr-btnround-bg: hsla(240, 22%, 14%, 0.931);
+    --clr-navbarbtn-bg: rgba(99, 102, 241, 1);
+  
+  
+
+}
+
+
+
+
+
+.btn-round {
+    background-color: var(--clr-btnround-bg);
+}
+
+/* -------PAGES--------- */
+
+.pages {
+    width: 1920px;
+    height: 6079px;
+}
+
+
+/* -------PAGE 1--------- */
+
+
+.page1 {
+    width: 1920px;
+    height: 876px;
+    background-color: var(--clr-page1);
+    
+}
+
+.innehåll {
+    width: 1296px;
+    height: 876px;
+    background-color: var(--clr-innehåll);
+    margin: auto;
+
+
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+
+    width: 1296px;
+    height: 76px;
+    align-items: center;
+
+}
+
+
+.title {
+    color: var(--cl-title);
+}
+
+.subtitle {
+    color: var(--cl-subtitle);
+}
+
+
+.navbarbutton {
+    background-color: var(--clr-navbarbtn-bg)
+}
+
+
+
+
+.logo {
+    width: 122px;
+    height: 44px;
+}
+
+.menu {
+    width: 68px;
+    height: 26px;
+}
+
+.switch {
+    display: flex;
+    width: 143px;
+    height: 26px;
+}
+
+.btn {
+    width: 140px;
+    height: 36px;
+}
+
+
+
+.navbarbutton {
+    display: flex;
+    
+}
+
+
+
+.textbuttons {
+    width: 526px;
+    height: 328px;
+
+}
+
+
+.text {
+    width: 526px;
+    height: 228px;
+}
+
+h1{
+    font-size: 50px;
+    margin-block: 2rem;
+    color: var(--cl-h1);
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+
+.buttons {
+    display: flex;
+    width: 384px;
+    height: 52px;
+    
+
+}
+
+
+.button1 {
+    display: flex;
+    background-color: var(--clr-button1-bg);
+    color: var(--clr-button1-pr);
+    margin-right: 24px;
+    border-radius: 8px;
+    border: 0;
+    
+}
+
+.button2 {
+    display: flex;
+    background-color: var(--clr-button2-bg);
+    color: var(--clr-button2-pr);
+    border-radius: 8px;
+    border: 0;
+}
+
+
+
+
+
+
+/* -------PAGE 2--------- */
+
+.page2 {
+    width: 1920px;
+    height: 1104px;
+    background-color: var(--clr-page2);
+}
+
+
+
+.innehåll2 {
+    width: 1296px;
+    height: 876px;
+    background-color: var(--clr-innehåll2);
+    margin: auto;
+
+
+}
+
+.logotop {
+    display: flex;
+    margin-bottom: 112px;
+   
+
+
+}
+
+.logo2 {
+    width: 1296px;
+    height: 100px;
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+#logo2-1 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+
+#logo2-2 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+#logo2-3 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+#logo2-4 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+#logo2-5 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+
+#logo2-6 {
+    width: 196px;
+    height: 100px;
+}
+
+
+.phonetext {
+    width: 1296px;
+    height: 684px;
+    display: flex;
+    flex-direction: row;  /* Ensure horizontal alignment */
+    justify-content: space-between;  /* Ensure space between elements */
+    align-items: center;  /* Center vertically */
+}
+
+.text2 {
+    width: 746px;
+    height: 640px;
+
+}
+
+
+#AF {
+    width: 259px;
+    height: 52px;
+    font-size: 40px;
+
+
+}
+
+
+
+#lorem {
+    width: 746px;
+    height: 58px;
+    color: var(--clr-lorem);
+
+}
+
+
+
+.icontext {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Två kolumner med lika stor bredd */
+    grid-gap: 20px; /* Mellanrum mellan boxarna */
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
+#box-1 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon1 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext1 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx1 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px1{
+    color: var(--clr-pxalla);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px2 {
+    color: var(--clr-pxalla);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px3 {
+    color: var(--clr-pxalla);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px4 {
+    color: var(--clr-pxalla);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px5 {
+    color: var(--clr-pxalla);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px6 {
+    color: var(--clr-pxalla);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+
+
+
+
+#box-2 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon2 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext2 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx2 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px2 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+#box-3 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon3 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext3 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx3 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px3 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+#box-4 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+
+#icon4 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+
+.minitext4 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx4 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px4 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+
+#box-5 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon5 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext5 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx5 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px5 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+
+#box-6 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon6 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext6 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx6 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px6 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+
+/* -------PAGE 3--------- */
+
+
+
+
+
+.page3 {
+    width: 1920px;
+    height: 1077px;
+    background-color: var(--clr-page3);
+}
+
+
+
+.innehåll3 {
+    width: 1184px;
+    height: 1077px;
+    margin: auto;
+    padding-top: 20px; /* Lägg till extra utrymme högst upp */
+}
+
+
+#headline3 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.telefoner3 {
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 auto;
+}
+
+.telefoner3 img {
+    max-width: 30%;
+    height: auto; 
+}
+
+
+
+
+.beskrivning3 {
+    width: 636px;
+    height: 98px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    text-align: center; 
+    margin: auto;
+    margin-top: 75px;
+}
+
+#bh3 {
+    width: 636px;
+    height: 34px;
+}
+
+#bp3 {
+    margin-top: auto; 
+    width: 636px;
+    height: 52px;
+}
+
+
+
+
+
+
+
+
+
+/* -------PAGE 4--------- */
+
+.page4 {
+    width: 1920px;
+    height: 1304px;
+    background-color: var(--clr-page4);
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align content at the top */
+    padding-top: 112px; /* Add space between the top of page4 and innehåll4 */
+    padding-bottom: 112px; /* Add space between the bottom of page4 and innehåll4 */
+}
+
+.innehåll4 {
+    width: 1076px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+
+/* sektion1 */
+.sektion1 {
+    display: flex;
+    justify-content: space-between; /* Text on the left, image on the right */
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px; /* Add 80px margin between sektion1 and sektion2 */
+}
+
+.text4 {
+    width: 50%; /* Make sure text takes up 50% of the width */
+    margin-top: 100px;
+}
+
+
+#h23 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.img4 {
+    width: 50%; /* Make sure image takes up 50% of the width */
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+}
+
+.img4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* sektion2 */
+
+.sektion2 {
+    display: flex;
+    justify-content: center; /* Horisontell centrering */
+    align-items: center; /* Vertikal centrering */
+    height: 100vh; /* Justerar höjden så att sektionen tar upp hela viewportens höjd om det behövs */
+}
+
+.img42 {
+    margin-bottom: 100px;
+    width: 50%; /* Make sure image takes up 50% of the width */
+    display: flex;
+    justify-content: flex-start; /* Align image to the left */
+}
+
+.img42 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text42 {
+    width: 50%; /* Make sure text takes up 50% of the width */
+}
+
+.icontext {
+    width: 526px;
+    height: 154px;
+}
+
+.text42 h2 {
+    margin-bottom: 20px; /* Lägger till 20px mellanrum nedanför rubriken */
+}
+
+.icontext {
+    margin-top: 20px; /* Om du vill säkerställa att icontext också har mellanrum från andra element */
+}
+
+.it1 {
+    width: 243px;
+    height: 154px;
+}
+
+.it2 {
+    width: 243px;
+    height: 154px;
+}
+
+#bild1 {
+    margin-bottom: 15px; /* Lägger till 20px mellanrum under bilden */
+}
+
+#bild2 {
+    margin-bottom: 15px;
+}
+
+
+
+
+#knapp4 {
+    margin-top: 40px;
+    border-radius: 0.5rem;
+    color: var(--clr-knapp4-pr);
+    background-color: var(--clr-knapp4-bg);
+    padding: 1rem;
+    border: 0;
+    width: 159px;
+    height: 44px;
+    font-size: 15px;
+}
+
+#knapp42 {
+    border-radius: 0.5rem;
+    color: var(--clr-knapp42-pr);
+    background-color: var(--clr-knapp42-bg);
+    padding: 1rem;
+    border: 0;
+    width: 159px;
+    height: 44px;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+/* -------PAGE 5--------- */
+
+.page5 {
+    background-color: var(--clr-page5);
+    width: 1920px;
+    height: 542px;
+}
+
+
+.innehåll5 {
+    width: 1296px;
+    height: 542px;
+    margin: auto;
+}
+
+
+
+
+.recension-section {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-right: 20px; 
+}
+
+#headline5 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+
+.recentioner {
+    display: flex; /* Lägger till flexbox för horisontell layout av recentioner */
+    justify-content: flex-end; /* Flyttar recentionerna längst till höger */
+    width: 856px;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.recention1, .recention2 {
+    background-color: var(--clr-recention);
+
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 15px rgba(201, 196, 196, 0.5); /* Skugga med svarta kanter */
+    width: 416px; 
+    height: 350px;
+    margin-right: 24px; /* Lägger till mellanrum mellan recentionerna */
+}
+
+#quotes {
+    display: flex;
+}
+
+
+.emoji-text {
+    display: flex; /* Flexbox för att placera emojin och texten bredvid varandra */
+    align-items: center; /* Vertikal centrering */
+    margin-top: auto; /* Flyttar blocket längst ner */
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.emoji-text1 {
+    display: flex; /* Flexbox för att placera emojin och texten bredvid varandra */
+    align-items: center; /* Vertikal centrering */
+    margin-top: auto; /* Flyttar blocket längst ner */
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+#rtext, #rtext1 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: var(--clr-rtext);
+
+}
+
+
+#rat, #rat1 {
+    margin-left: 30px;
+
+}
+
+#f5, #a5 {
+    color: var(--clr-f5af);
+
+}
+
+
+
+
+/* -------PAGE 6--------- */
+
+.page6 {
+    width: 1920px;
+    height: 876px;
+    background-color: var(--clr-page6);
+
+}
+
+
+
+.ruta1 {
+    width: 1297px;
+    height: 600px;
+    display: flex; /* Gör så att innehållet i .ruta1 placeras horisontellt */
+    justify-content: space-between; /* Om du vill ha jämn fördelning mellan elementen */
+    align-items: flex-start; /* Justerar vertikalt om elementen har olika höjd */
+    margin-left: 312px;
+    margin-right: 312px;
+    padding-top: 90px;
+}
+
+
+
+.text6 {
+    width: 417px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Detta gör att textu hamnar högst upp och textn längst ner */
+    padding-top: 30px;
+}
+
+.text6u {
+    width: 416px;
+    height: 174px;
+    margin-bottom: 40px;
+}
+
+
+
+.text6u h2 {
+    width: 415px;
+    height: 84px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.6px;
+    margin-bottom:35px;
+}
+
+
+
+.text6u p {
+    width: 416px;
+    height: 58px;
+    font-size: 19px;
+    font-weight: 300;
+    color: var(--clr-text6u);
+}
+
+
+
+
+.text6n {
+    width: 416px;
+    height: 196px;
+    display: flex;
+    justify-content: space-between; /* Detta gör att vibe och whatsapp ligger horisontellt bredvid varandra */
+    width: 100%; /* Se till att de tar upp hela bredden */
+}
+
+
+
+.vibe {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
+    width: 196px;
+    height: 166px;
+    border: solid;
+    border-radius: 8px;
+    border: 1px solid rgba(226, 229, 241, 1)
+}
+
+.vibe div {
+    width: 148px;
+    height: 66px;
+    margin-top: 20px;
+}
+
+.vibe img {
+    margin-bottom: 10px; /* Add space between the image and the text */
+}
+
+.vibe p {
+    height: 22px;
+
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+
+}
+
+.vibe button {
+    align-self: stretch; /* Make the button stretch to the width of the container if desired */
+    width: 103px;
+    height: 44px;
+    border: 0;
+    background-color: white;
+    color: var(--clr-vibebtn);
+    font-size: 14px;
+    line-height: 22.4px;
+    margin-top: 10px;
+    margin-left: 14px;
+
+}
+
+
+
+.whatsapp {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
+    width: 196px;
+    height: 166px;
+    border: solid;
+    border-radius: 8px;
+    border: 1px solid rgba(226, 229, 241, 1)
+}
+
+.whatsapp div {
+    width: 148px;
+    height: 66px;
+    margin-top: 20px;
+
+}
+
+.whatapp img {
+    margin-bottom: 10px; /* Add space between the image and the text */
+}
+
+.whatsapp p {
+    height: 22px;
+
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+
+}
+
+.whatsapp button {
+    align-self: stretch; /* Make the button stretch to the width of the container if desired */
+    width: 103px;
+    height: 44px;
+    border: 0;
+    background-color: var(--clr-whatsappbtn-bg);
+    color: var(--clr-whatsappbtn-pr);
+    font-size: 14px;
+    line-height: 22.4px;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+.whatsapp-content p {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.text61 {
+    width: 746px;
+    height: 600px;
+    margin: 10px;
+    margin-left: auto; /* Skjuter text61 hela vägen till höger */
+}
+
+
+
+.sections {
+    width: 746px;
+    height: 600px;
+
+}
+
+.sections h3 {
+    color: var(--clr-sectionsh3);
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 500;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+
+}
+
+.sections button {
+    width: 40px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    border-radius: 50%; /* Makes the button round */
+    border: none; /* Optional: Remove border */
+    background-color: var(--clr-sectionsbtn-bgcl); /* Background color */
+    text-align: center;
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Add pointer cursor */
+
+    background: var(--clr-sectionsbtn-bg);
+
+}
+
+.section3 button {
+    background: var(--clr-section3btn);
+
+}
+
+.section3 p {
+    padding-left: 24px;
+    padding-bottom: 24px;
+    font-weight: normal; /* Gör att texten inte är fet */
+    font-size: 14px;
+    color: var(--clr-section3p);
+    line-height: 22.4px;
+    
+
+
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6 {
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 15px rgba(201, 196, 196, 0.5);
+    inline-size: none;
+    margin-top: 20px;
+    
+}
+
+
+
+
+h3 {
+    font-weight: normal; /* Gör att texten inte är fet */
+}
+
+
+.section1, .section2, .section4, .section5, .section6 {
+    display: flex;
+    align-items: center; /* Justerar dem vertikalt i mitten */
+    justify-content: space-between; /* Placera h3 till vänster och button till höger */
+    width: 100%; /* Gör att sektionen tar upp hela bredden */
+}
+
+.section3 div {
+    display: flex;
+    align-items: center; /* Justerar dem vertikalt i mitten */
+    justify-content: space-between; /* Placera h3 till vänster och button till höger */
+    width: 100%; /* Gör att sektionen tar upp hela bredden */
+
+}
+
+
+
+
+
+
+
+
+
+
+.ruta2 {   
+    width: 1296px;
+    height: 222px;
+    margin: auto;
+    border-radius: 8px;
+    background: var(--clr-ruta2);
+    display: flex;
+    margin-top: 200px;
+
+
+}
+
+.subscribe {
+    width: 526px;
+    height: 78px;
+    padding-top: 72px;
+    padding-left: 110px;
+    gap: 32px;
+    display: flex;
+}
+
+.subscribe img {
+    width: 78px;
+    height: 78px;
+}
+
+.subscribe h4 {
+    width: 416px;
+    height: 68px;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 33.6px;
+}
+
+.email {
+    width: 472px;
+    height: 52px;
+    margin-top: 85px;
+    border-radius: 8px;
+    background: var(--clr-email);
+    border: 1px solid rgba(212, 215, 229, 1);
+    display: flex;
+    margin-left: 100px;   
+}
+
+
+
+.email-text {
+    white-space: nowrap;
+    margin: 0;
+    padding-left: 10px; /* Optional: Lägg till lite avstånd mellan bilden och texten */
+    align-items: center;
+    display: flex;
+    color: var(--clr-emailtext);
+
+}
+
+
+.email button {
+    width: 142px;
+    height: 52px;
+    background: var(--clr-emailbtn-bg);
+    padding: 13px 32px 13px 32px;
+    gap: 8px;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 0px;
+    border: none;
+    margin-left: 300px;
+    
+
+    color: var(--clr-emailbtn-pr);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    
+
+}
+
+
+
+
+.ruta3 {
+    width: 1920px;
+    height: 130px;
+    color: var(--clr-ruta3);
+    display: flex;
+
+}
+
+.ruta3 footer {
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faq {
+    background-color: #fff;
+    /* max-width: 570px; */
+    /* margin: 5rem auto; */
+    border-radius: .5rem;
+    box-shadow: 4px 4px 8px #00000038;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem;
+    cursor: pointer;
+
+    p {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}
+
+.btn-round {
+    background-color: var(--clr-btnround);
+    border: 0;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+
+    transition: all 300ms;
+}
+
+
+.answer {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+
+    transition: grid-template-rows 300ms, padding-bottom 300ms;
+    padding: 0 .7rem;
+  
+}
+
+.open .answer {
+    padding-bottom: .7rem;
+    grid-template-rows: 1fr;
+
+}
+
+
+.open .btn-round{
+    background-color: var(--clr-btnroundopen-bg);
+    rotate: 180deg;
+    color: var(--clr-btnroundopen-pr) 
+}
+
+.expandable {
+    min-height: 0px;
+}
+
+
+
+.toggle {
+    --_w: 40px;
+    --_h: 20px;
+
+    width: var(--_w);
+    height: var(--_h);
+    flex-shrink: none;
+    position: relative;
+    display: inline-block;
+
+    input[type="checkbox"] {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        inset: 0;
+        background-color: var(--clr-slider);
+        border-radius: 100vw;
+        box-shadow: inset 0 0 3px #00000038;
+    
+        transition: 400ms;
+    }
+
+    .slider::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        aspect-ratio: 1;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 5px #00000057;
+
+        transition: 400ms;
+    }
+
+    input[type="checkbox"]:checked + .slider::before {
+        left: calc(100% - var(--_h));
+        background-color: var(--clr-secondary);
+    }
+    input[type="checkbox"]:checked + .slider {
+        background-color: var(--clr-slidebtn-bg);
+  
+    }
+}
+
